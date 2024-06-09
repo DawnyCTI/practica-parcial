@@ -26,4 +26,5 @@ jobs:
       env:
         SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-      run: surge --project ./index.html --domain dawnyparcial.surge.sh
+      run: surge --project ./ --domain dawnyparcial.surge.sh
+
